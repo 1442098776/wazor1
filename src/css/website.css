@@ -1,0 +1,116 @@
+.website{
+	padding-bottom: 40px;
+}
+.website .contenCount{
+	width: 60%;
+}
+.website h3{
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	font-size: 26px !important;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	color: #000;
+}
+.website h4{
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+	color: #000;
+}
+.website p{
+	font-size: 12px;
+}
+.contenCount form{
+	padding: 10px 0 20px;
+}
+.contenCount form label{
+	font-weight: normal;
+	padding-right: 10%;
+}
+.contenCount form input{
+	height: 30px;
+	width: 230px;
+	padding: 0 10px;
+}
+.contenCount form button{
+	width: 90px;
+	height: 25px;
+	line-height: 24px;
+	padding: 0;
+	border: 0;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;
+	background-color: #d0a144;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.contenCount form button i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: #fff;
+	color:#d0a144;
+	font-size: 14px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	margin-left: 10px;
+}
+
+/* .contenCount1 */
+u{
+	cursor: pointer;
+}
+.contenCount1{
+	display: none;
+}
+.website h2{
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	font-weight: 400;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 20px;
+	text-transform: uppercase;
+	color: #000;
+}
+.faq>.faqP{
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	margin-bottom:20px;
+}
+.faq>.faqP span{
+	font-size: 16px;
+	padding-right: 10px;
+}
+.faq>ul{
+	margin: 0 25px 0;
+	display: none;
+}
+.faq>ul>li{
+	display: block;
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+
+.contenCount2{
+	display: none;
+}
+.contenCount2 ul{
+	padding:10px 20px;
+}
+.contenCount2 li{
+	padding-bottom: 40px;
+	font-size: 12px;
+}

@@ -1,0 +1,240 @@
+.grey{
+	color: #796038 !important;
+}
+.gray{
+	color: #999 !important;
+}
+.shopLook .aBtn{
+	display:inline-block;
+	width: 230px;
+	border: 2px solid #ac8c5f;
+	color: #8d7249;
+	font-size: 16px;
+	text-transform: uppercase;
+	background: #fff;
+	padding: 0 10px;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+	text-align: left;
+	cursor: pointer;
+	position: relative;
+}
+.shopLook .aBtn>i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	background: #8d7249;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	right: 5%;
+	transform: translateY(-50%);
+
+}
+.shopLook .aBtn:hover{
+	background: #8d7249;
+	color: #fff;
+}
+.shopLook .aBtn:hover>I{
+	background: #fff;
+	color:#8d7249;
+}
+
+.shopLook .p{
+	margin: 35px 0 20px;
+}
+.shopLook .p>span{
+	display:block;
+	width: 60%;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: "AvantGardeGothicITCW02B 737103","Arial Black",Gadget,sans-serif;
+}
+.shopLook h1{
+	font-size: 35px;
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	color: #000;
+	text-transform: uppercase;
+}
+.shopLook h2{
+	color: #000;
+	font-family: "AvantGardeGothicITCW02B 737103","Arial Black",Gadget,sans-serif;
+	margin: 0 0 30px;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.shopLook h3{
+	color: #000;
+	font-family: "AvantGardeGothicITCW02B 737103","Arial Black",Gadget,sans-serif;
+	margin: 0 0 15px;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.shopLook .p1{
+	padding: 10px 100px 20px;
+	font-size: 16px;
+}
+.shopLook .contenCount1{
+	padding: 20px 0 60px;
+}
+.shopLook .p3{
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+.contenCount1>video{
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+.contenCount1>.product-list{
+	padding: 0 20px;
+}
+.contenCount1 .add-product{
+	width: calc(99% / 3);
+	margin: 25px 0;
+	padding-right: 10px;
+	min-height: 110px;
+}
+.contenCount1 .product-select{
+	min-width: 95px;
+}
+.contenCount1 .product-select>input{
+	margin: 0;
+}
+.contenCount1 .product-select>label{
+	display: block;
+	height: 100px;
+	margin: 0 10px;
+	overflow: hidden;
+}
+.contenCount1 .product-description{
+	vertical-align: bottom;
+}
+.contenCount1 .product-description>a{
+	display: block;
+	min-height: 78px;
+	font-size: 16px;
+}
+.contenCount1 .product-description>.a{
+	min-height:50px !important;
+}
+.contenCount1 .product-description>a:hover{
+	text-decoration: underline;
+}
+.contenCount1 .product-description>.grey{
+	display: block;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: "AvantGardeGothicITCW02B 737103","Arial Black",Gadget,sans-serif;
+}
+.contenCount1 .product-description>.red{
+	color: #cc1b25 !important;
+}
+.shopLook .p4{
+	border-top: 2px solid #796038;
+	margin: 20px auto 0 auto;
+	padding-top: 20px;
+}
+.shopLook .p4>i{
+	font-size: 18px;
+	font-weight: 400;
+	position: relative;
+}
+.shopLook .p4>i>span{
+	display: block;
+	position: absolute;
+	z-index: 10;
+	background: #796038;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	font-size: 11px;
+	color: #fff;
+	top: -5px;
+	left: 8px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+.shopLook .p4>span{
+	font-size: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.shopLook .p4 em{
+	color:#796038 ;
+}
+.shopLook .flex{
+	display: flex;
+	margin-bottom: 40px;
+}
+.shopLook .flex>div{
+	flex: 1;
+}
+.shopLook .flex>.left{
+	padding: 40px 0 20px;
+}
+.flex>.right>p:first-of-type{
+	font-size: 15px;
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+}
+.parsys_column{
+	margin-bottom: 20px;
+}
+.parsys_column>ul{
+	width: 25%;
+	padding: 0 20px 0 0;
+}
+.parsys_column>ul:nth-of-type(4){
+	padding-right: 0;
+}
+.parsys_column li:nth-of-type(2){
+	padding: 20px 0 20px;
+}
+.parsys_column li.li{
+	padding-bottom: 10px;
+	font-size: 12px;
+}
+.parsys_column>ul a{
+	text-decoration: underline;
+}
+.inspired{
+	margin-bottom: 80px;
+}
+.inspired>ul{
+	width: 25%;
+	padding: 0 15px;
+	margin-bottom: 20px;
+}
+.inspired li:nth-of-type(2){
+	background: #000;
+	color: #999;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+.inspired li:last-of-type{
+	background: #000;
+	padding-bottom: 20px;
+}
+.inspired li>a{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+}

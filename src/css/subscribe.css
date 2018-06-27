@@ -1,0 +1,111 @@
+.subscribe h3{
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.subscribe h4{
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	font-weight:400;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+/* 表单 */
+.subscribe form{
+	margin: 40px 0;
+	width: 60%;
+	padding-bottom: 40px;
+}
+.subscribe form hr{
+	margin-top: -20px;
+}
+.subscribe form>.form-group{
+	display: flex;
+}
+.subscribe form>.radio{
+	height: auto;
+	margin-bottom: 20px;
+}
+.subscribe form>.radio>label{
+	flex: 2;
+	display: inline-block;
+	height: 100%;
+	line-height: 100%;
+	font-weight: normal;
+	padding-left: 0;
+}
+.subscribe form>.form-group:not(.radio)>label{
+	flex: 2;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+.subscribe form>.form-group>.input{
+	flex: 3;
+	position: relative;
+}
+.subscribe form>.form-group>.input>i{
+	position: absolute;
+	right: -35px;
+	top: 0;
+	display:none;
+}
+.subscribe form>.form-group>.input>input:not(.radio){
+	height: 40px;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border: 1px solid #ccc;
+}
+.subscribe form>.form-group>.input>p{
+	display: none;
+	color:#b00b0b;
+	margin-bottom: 0;
+	padding:5px 10px;
+	font-size: 12px;
+}
+.subscribe form>.form-group>.input>label{
+	font-weight: normal;
+}
+.subscribe form button{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0;
+	border: 0;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;
+	background-color: #d0a144;
+}
+.subscribe form button>a{
+	color: #fff;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.subscribe form button>a>i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: #fff;
+	color:#d0a144;
+	font-size: 14px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	margin-left: 10px;
+}

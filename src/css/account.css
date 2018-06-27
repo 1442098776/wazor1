@@ -1,0 +1,121 @@
+.account>.count1 h2{
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 10px 0 30px;
+}
+.account>.count2{
+	padding-bottom: 40px;
+}
+.account .left,.account .right{
+	padding: 0 5%;
+	background: url('../images/badges.png') no-repeat;
+}
+.account .accountCount>.p1,.account .accountCount>.p2,.account .accountCount>.p3{
+	color: #fff;
+}
+.account .left{
+	background-position: 85px 40px;
+}
+.account .right{
+	background-position: -350px 40px;
+}
+.account .pOption{
+	height: 30px;
+	padding: 0 35%;
+	position: relative;
+	color: #333;
+}
+.account .pOption>span{
+	display: inline-block;
+	width: 35%;
+	position: absolute;
+	height: 1px;
+	background: #ccc;
+	top: 49%;
+}
+.account .pOption>span:first-of-type{
+	left: 0;
+}
+.account .pOption>span:last-of-type{
+	right: 0;
+}
+.account .pOption>b{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 24px;
+	text-transform: capitalize;
+}
+
+.account .accountCount{
+	padding: 80px 30px 0 35px;
+}
+.account .accountCount .p1,.account .accountCount .p2{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+.account .accountCount .p2{
+	font-size: 20px;
+}
+.account .accountCount hr:first-of-type{
+	width: 50px;
+	margin: 30px auto;
+}
+.account .accountCount>a:first-of-type{
+	display: block;
+	width: 145px;
+	margin:0 auto;
+	color: #fff;
+	font-weight: bold;
+}
+.account .accountCount>a:first-of-type>i{
+	padding-left: 5px;
+}
+
+
+.addBtn{
+	font-family: "HelveticaNeueW02-77BdCn 694066",HelveticaNeueBlackCondensed,HelveticaNeue-Black-Condensed,"Helvetica Neue Black Condensed",HelveticaNeueBlack,HelveticaNeue-Black,"Helvetica Neue Black",HelveticaNeue,"Helvetica Neue",TeXGyreHerosCnBold,"Arial Narrow",Arial,sans-serif;
+	display: block;
+	margin: 0 auto;
+	width: 130px;
+	height: 25px;
+	line-height: 29px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	background: #d0a144;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px !important;
+}
+.addBtn:hover{
+	color: #fff;
+}
+.addBtn>i{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	background: #fff;
+	color: #d0a144;
+	font-size: 12px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	margin-left: 10px;
+}
+.account .accountCount>div{
+	margin-top: 80px;
+	border-top:1px solid #ccc;
+	padding-bottom: 20px;
+}
+.account .accountCount h4{
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}

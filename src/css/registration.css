@@ -1,0 +1,148 @@
+.registration{
+	font-size: 12px;
+	padding-bottom: 80px;
+}
+.registration>h3{
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.registration>.count1{
+	width: 650px;
+	margin-bottom: 15px;
+}
+.registration>.count1>label{
+	display: inline-block;
+	width: 200px;
+	font-weight: normal;
+}
+.registration>.count1:not(:first-of-type)>label{
+	padding-top: 7px;
+}
+.registration>.count1>div{
+	width: 450px;
+}
+.count1>.radioCheck>span{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+}
+.count1>.radioCheck>span>input{
+	float: left;
+}
+.count1>.radioCheck>span>label{
+	font-weight: normal;
+	margin-bottom: 0px;
+	float: left;
+	margin-left: 10px;
+}
+.count1>.codeInput input{
+	width: 130px;
+	height: 30px;
+	padding-left:5px;
+	margin-right: 10px;
+	border: 1px solid #ccc;
+}
+.count1 .help,.count1 .help1{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #d0a144;
+	color: #fff;
+	margin-bottom: 0;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	cursor: pointer;
+}
+.count1>.dataCode input{
+	height: 30px;
+	padding-left: 5px;
+	width: 410px;
+	margin-right: 10px;
+	border: 1px solid #ccc;
+}
+.registration button{
+	width:125px;
+	height: 27px;
+	line-height: 28px;
+	padding: 0;
+	border: 0;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;
+	background-color: #d0a144;
+}
+.registration button>a{
+	color: #fff;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.registration button>a>i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: #fff;
+	color:#d0a144;
+	font-size: 14px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	margin-left: 10px;
+}
+
+/* 点击？出现的弹窗 */
+.helpPupop{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 10;
+	display: none;
+}
+.helpPupop>.pupopCount{
+	width: 800px;
+	height:80%;
+	margin:5% auto;
+	background: #fff;
+	z-index: 20;
+}
+.pupopCount .pupopClose{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background: #000;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+}
+.pupopCount>div{
+	margin: 40px;
+	padding: 20px 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.pupopCount .p1{
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 10px 0;
+	font-weight: bold;
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+}

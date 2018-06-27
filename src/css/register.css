@@ -1,0 +1,215 @@
+.register{
+	padding-bottom: 20px;
+}
+.register>h1{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin:10px 0;
+	font-weight: bold;
+}
+.register .left>h4,.register .right>h4{
+	margin: 20px 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.register .left{
+	padding-left: 0;
+	padding-right: 10%;
+}
+.register .left>p:not(:last-of-type){
+	font-size: 18px;
+	color: #000;
+}
+/* 右边样式 */
+.register .right{
+	border-left:1px solid #cecece;
+	padding-left: 20px;
+	padding-right: 40px;
+}
+.register .right>p:first-of-type{
+	color: #8f8f8f;
+}
+.register form>.form-group{
+	display: flex;
+}
+.register form>.radio{
+	height: auto;
+	margin-bottom: 20px;
+}
+.register form>.radio>label{
+	flex: 2;
+	display: inline-block;
+	height: 100%;
+	line-height: 100%;
+	font-weight: normal;
+	padding-left: 0;
+}
+.register form>.form-group:not(.radio)>label{
+	flex: 2;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+.register form>.form-group>.input{
+	flex: 3;
+	position: relative;
+}
+.register form>.form-group>.input>i{
+	position: absolute;
+	right: -35px;
+	top: 0;
+	display:none;
+}
+.register form>.form-group>.input>input:not(.radio){
+	height: 40px;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border: 1px solid #ccc;
+}
+.register form>.form-group>.input>p{
+	display: none;
+	color:#b00b0b;
+	margin-bottom: 0;
+	padding:5px 10px;
+	font-size: 12px;
+}
+.register form>.form-group>.input>label{
+	font-weight: normal;
+}
+.register form>.checkbox{
+	height: auto;
+	margin-bottom: 20px;
+}
+.register form>.checkbox>label{
+	padding: 0;
+}
+.register form button{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0;
+	border: 0;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;
+	background-color: #d0a144;
+}
+.register form button>a{
+	color: #fff;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	font-weight: bold;
+}
+.register form button>a>i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: #fff;
+	color:#d0a144;
+	font-size: 14px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	margin-left: 10px;
+}
+
+/* 点击出现弹窗 */
+.termsPupop{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 20;
+	display: none;
+}
+.termsPupop>.pupopCount{
+	width: 800px;
+	height: auto;
+	margin: 40px auto;
+	background: #fff;
+	z-index: 30;
+}
+.termsPupop .pupopClose{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background: #000;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+.pupopCount .count{
+	min-height: 0;
+	padding: 5px 20px;
+	overflow: hidden;
+}
+.pupopCount .count1{
+	overflow: auto;
+	height: 580px;
+}
+.pupopCount .count1>h1{
+	padding-bottom:20px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+}
+.pupopCount .count1>.p1{
+	font-size: 0;
+}
+.pupopCount .count1>.p1>span{
+	display: inline-block;
+	padding:10px;
+	border: 1px solid #d3d3d3;
+	color: #fff;
+	background: #000;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 14px;
+}
+.pupopCount .count1>.p1>span.active{
+	color: #333;
+	background: #fff;
+}
+.pupopCount .count3>div{
+	padding:0 14px;
+}
+.pupopCount .count3 p{
+	font-size: 12px;
+}
+.pupopCount .count3 .p1{
+	padding-left: 60px;
+}
+.pupopCount .count3 .p2{
+	padding-left:90px;
+}
+.pupopCount .count3 .p3,.pupopCount .count3 .ul>li{
+	padding-left:30px;
+}
+.pupopCount .count3>.twoCount,.pupopCount .count3>.threeCount,
+.pupopCount .count3>.foruCount,.pupopCount .count3>.fiveCount{
+	display: none;
+}
+.pupopCount .count3 .table{
+	width: auto;
+}
+.pupopCount .count3 .table td{
+	width: 231px;
+	padding: 10px;
+}
+.pupopCount .count3 h3{
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}

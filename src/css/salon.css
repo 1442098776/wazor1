@@ -1,0 +1,128 @@
+.aBtn{
+	display:inline-block;
+	width: 230px;
+	border: 2px solid #ac8c5f;
+	color: #8d7249;
+	font-size: 16px;
+	text-transform: uppercase;
+	background: #fff;
+	padding: 0 10px;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+	text-align: left;
+	cursor: pointer;
+	position: relative;
+}
+.aBtn>i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	background: #8d7249;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	right: 5%;
+	transform: translateY(-50%);
+
+}
+.aBtn:hover{
+	background: #8d7249;
+	color: #fff;
+}
+.aBtn:hover>I{
+	background: #fff;
+	color:#8d7249;
+}
+.gray{
+	color: #999;
+	background: #000;
+	padding: 10px 10px 5px;
+	font-size: 12px;
+}
+.white{
+	padding: 0 10px 10px;
+	background: #000;
+	text-transform: uppercase;
+}
+.white a{
+	color: #fff;
+	font-weight: bold;
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+}
+
+.salon{
+	padding-bottom: 20px;
+}
+.salon>.contenCount{
+	background: #000;
+	padding: 20px 20px 20px 30px;
+	color: #fff;
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	margin-bottom: 35px;
+}
+.salon>.contenCount h2{
+	font-size: 65px;
+	font-weight: bold;
+	line-height: 50px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.salon>.contenCount h4{
+	padding-bottom: 20px;
+	border-bottom: solid 1px #393A3B;
+	text-transform: uppercase;
+}
+.salon>.contenCount p{
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.salon .imgCount{
+	margin-bottom: 20px;
+}
+.salon .imgCount>a{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin: 0 20px 20px 0px;
+	position: relative;
+}
+.salon .imgCount>a:hover ul{
+	display: block;
+}
+.salon .imgCount ul{
+	background:rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	font-family: 'AvantGardeGothicITCW02B 737103','Arial Black',Gadget,sans-serif;
+	font-weight: bold;
+	padding: 15px;
+	display: none;
+}
+.salon .imgCount li:first-of-type{
+	color: #b7b7b7;
+	padding-bottom: 40%;
+}
+.salon .imgCount li:nth-of-type(2){
+	padding-bottom: 25%;
+	color: #ccc;
+}
+.salon .imgCount li:last-of-type{
+	color: #fff;
+}
+.salon .ul{
+	margin:0 20px 20px 0;
+}

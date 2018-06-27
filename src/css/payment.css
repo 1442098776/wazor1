@@ -1,0 +1,75 @@
+.payment h3{
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin:0 0 20px;
+}
+.payment .p{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-size: 0;
+}
+.payment .pSpan{
+	display: inline-block;
+	padding: 10px 15px;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+}
+.payment span.active{
+	color: #000 !important;
+	background: #fff !important;
+	padding: 14px 15px !important;
+	border: 1px solid #aaa;
+	border-bottom: 0;
+}
+.payment .centenCount{
+	padding: 0 20px 60px;
+}
+.payment .centenCount .bodyCount1{
+	display: none;
+}
+.payment .bodyCount{
+	padding-bottom: 100px;
+}
+.payment .centenCount h4{
+	font-family: "HelveticaNeueW02-77BdCn 694066",HelveticaNeueBlackCondensed,HelveticaNeue-Black-Condensed,"Helvetica Neue Black Condensed",HelveticaNeueBlack,HelveticaNeue-Black,"Helvetica Neue Black",HelveticaNeue,"Helvetica Neue",TeXGyreHerosCnBold,"Arial Narrow",Arial,sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin: 20px 0;
+}
+.payment .centenCount p{
+	font-size: 12px;
+}
+.centenCount>.bodyCount1>ul{
+	font-size: 12px;
+	padding-left: 20px;
+}
+.centenCount>.bodyCount1>ul>li{
+	padding-bottom: 40px;
+}
+.bodyCount1 .faqP{
+	font-size:16px !important;
+	cursor: pointer;
+}
+.bodyCount1 .faqP span{
+	font-size: 16px;
+	font-weight: bold;
+	padding-right:10px;
+}
+.bodyCount1>.faq ul{
+	display: none;
+}
+.bodyCount1>.faq .ul1{
+	padding-bottom: 40px;
+}
+.bodyCount1>.faq .ul2{
+	padding: 0 0 40px 25px;
+}

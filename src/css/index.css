@@ -1,0 +1,255 @@
+/* 加载完成后几秒显示的弱窗 */
+.popup{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	z-index: 10000;
+	display: none;
+}
+.popup>.popupCount{
+	width: 768px;
+	margin: 150px auto;
+}
+.popupCount>p{
+	background: #000;
+	margin-bottom: 0;
+	padding-right: 5px;
+	height: 30px;
+	line-height: 30px;
+}
+.poupClose{
+	cursor: pointer;
+}
+.poupClose i{
+	padding-left: 5px;
+	font-size: 12px;
+	color: #C6A15D;
+}
+.popupCount>.count{
+	width: 100%;
+	height: 100%;
+	background: url('../images/index/file.jpg') no-repeat;
+	letter-spacing: -1px;
+	padding-bottom: 20px;
+}
+.popupCount form{
+	width:400px;
+	margin:0px 30px;
+	padding-top: 40px;
+}
+.popupCount form>.p1,.popupCount form>.p2,.popupCount form>.p3{
+	font-size: 40px;
+	line-height: 30px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.popupCount form>.p1{
+	padding-left: 20%;
+}
+.popupCount form>.p2{
+	padding-left: 5%;
+}
+.popupCount form>.p3{
+	padding-left: 10%;
+}
+.popupCount form>.p4{
+	margin: 20px 0;
+	font-size: 16px;
+}
+.popupCount form input{
+	border-radius: 0;
+	background: #fff;
+	height: 35px;
+	color: #666;
+	padding-left: 10px;
+	border: 0;
+}
+.popupCount form input[placeholder="first name"]{
+	margin-right: 20px;
+}
+.popupCount form>input[type="email"]{
+	margin:20px 0;
+}
+.popupCount form>a{
+	display: block;
+	margin: 0 auto 10px auto;
+	color: #fff;
+	font-size: 12px;
+	background: #796038;
+	width: 180px;
+	height: 25px;
+	line-height: 26px;
+	border-radius: 20px;
+}
+.popupCount form>a>i{
+	display: inline-block;
+	margin-left:10px;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	background: #fff;
+	font-size: 12px;
+	color: #796038;
+	border-radius: 50%;
+}
+
+
+
+.carousel .carousel-indicators{
+	bottom: 0;
+}
+.carousel>ol>li{
+	width: 16px;
+	height: 16px;
+	background: url('../images/index/pagination.png') no-repeat;
+	background-position: -2px -2px;
+}
+.carousel>ol>li.active{
+	width: 16px;
+	height: 16px;
+	background-position: -2px -18px;
+}
+.caption>h2{
+	font-size: 55px;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 52px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.caption>p{
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.carousel-inner .caption{
+	display: block;
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	z-index: 10;
+	width: 30%;
+	height: auto;
+}
+.carousel-inner .caption>.shopNow{
+	border: 2px solid #ac8c5f;
+	padding: 10px;
+	background: #fff;
+	width:200px;
+	text-align: left;
+	position: relative;
+}
+.carousel-inner .caption>.shopNow span:first-of-type{
+	display: inline-block;
+	font-size: 18px;
+	height: 18px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #ac8c5f;
+}
+.carousel-inner .caption>.shopNow span:nth-of-type(2){
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	border-radius: 50%;
+	background: #ac8c5f;
+	color: #fff;
+	font-size: 14px;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+}
+.carousel-inner .caption>.shopNow:hover{
+	background: #8d7249;
+}
+.carousel-inner .caption>.shopNow:hover span:first-of-type{
+	color: #fff;
+}
+.carousel-inner .caption>.shopNow:hover span:nth-of-type(2){
+	background: #fff;
+	color: #ac8c5f;
+}
+/* 以上是轮翻样式 */
+
+.model{
+	margin-top: 30px;
+}
+.model>div{
+	width: 33%;
+}
+.model>div:not(:last-of-type){
+	margin-right: 0.5%;
+}
+.model>div a>span{
+	display: block;
+	padding: 20px 15px;
+	color: #fff;
+	background: #000;
+}
+
+.more{
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.more>div:first-of-type{
+	padding-left: 0;
+	padding-right: 10px;
+}
+.more>div:last-of-type{
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+/* 产品展示 */
+.product{
+	margin-bottom: 40px;
+}
+.product>div{
+	height: 525px;
+}
+.product ul>li:first-of-type{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 0;
+	font-size: 18px;
+}
+.product ul>li:first-of-type:hover{
+	text-decoration: underline;
+}
+.product ul>li:first-of-type>a>span:nth-of-type(2){
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	background: #000;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	margin-left: 10px;
+}
+.product ul>li:nth-of-type(3){
+	padding: 20px 15px 40px 15px;
+	background: #000;
+}
+.product ul>li:nth-of-type(3) a{
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.textP{
+	font-size: 12px;
+	margin-bottom: 40px;
+}
+

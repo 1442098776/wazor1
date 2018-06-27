@@ -1,0 +1,172 @@
+.Tweet{
+	height: 25px;
+	line-height: 25px;
+	margin-bottom: 25px;
+}
+.Tweet>span:first-of-type{
+	font-weight: bold;
+	font-size: 18px;
+	display: inline-block;
+	margin-right: 30%;
+}
+.Tweet>div{
+	width: 20px;
+	height: 25px;
+	line-height: 25px;
+	background: #000;
+	color: #fff;
+	position: relative;
+	margin-left:10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.Tweet>div:hover>div{
+	display: block;
+}
+.Tweet>div>div{
+	width: 180px;
+	position: absolute;
+	top: 25px;
+	z-index: 10;
+	display: none;
+	background: #fff;
+}
+.Tweet ul{
+	border: 1px solid #ccc;
+}
+.Tweet>div>div>ul li:hover:not(:last-of-type){
+	background: #07579f;
+}
+.Tweet>div>div>ul li:hover:not(:last-of-type) a{
+	color: #fff;
+}
+.Tweet>div>div>ul li{
+	display: block;
+	padding-left: 10px;
+	height: 30px;
+	line-height: 30px;
+}
+.Tweet>div>div>ul a{
+	color: #07579f;
+	font-weight: bold;
+	display: block;
+	height: 100%;
+}
+.Tweet>div>div>ul i{
+	color: #fff;
+	width:20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 14px;
+}
+.Tweet>div>div>ul>li:first-of-type i,.Tweet>div>div>ul>li:nth-of-type(2) i,
+.Tweet>div>div>ul>li:nth-of-type(7) i{
+	background-color: #d54040;
+}
+.Tweet>div>div>ul>li:nth-of-type(3) i{
+	background: #a32121;
+}
+.Tweet>div>div>ul>li:nth-of-type(4) i{
+	background: #b2b0b0;
+}
+.Tweet>div>div>ul>li:nth-of-type(5) i{
+	background: #09a6c2;
+}
+.Tweet>div>div>ul>li:nth-of-type(6) i{
+	background: #40a3d5;
+}
+.Tweet>div>div>ul>li:last-of-type{
+	border-top: 1px solid #ccc;
+}
+.Tweet>div>div>ul>li:last-of-type{
+	cursor:default;
+	padding-right: 10px;
+}
+.Tweet>div>div>ul>li:last-of-type a{
+	color: #666;
+	font-weight: normal;
+	display: inline;
+	float: right;
+}
+.Tweet>div>div>ul>li:last-of-type i{
+	width: 12px;
+	height: 12px;
+	line-height: 12px;
+	background: #d54040;
+	font-size: 12px;
+}
+/* 以上分享区域样式 */
+
+.contenCount{
+	position: relative;
+	margin: -60px 0 0 20px;
+	border: 20px solid #fff;
+	background: #fff;
+}
+.contenCount>.left{
+	padding-left: 0;
+	padding-right: 20px;
+}
+.contenCount .h3{
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin: 0 0 20px;
+}
+.contenCount p{
+	font-size: 16px;
+}
+.contenCount .h4{
+	font-family: 'AvantGardeGothicITCW02B 737103','Arial Black',Gadget,sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin: 40px 0 60px;
+}
+.flex{
+	display: flex;
+	margin-bottom: 60px;
+}
+.flex>div{
+	flex: 1;
+}
+.flex>.left{
+	padding-right: 20px;
+}
+.flex>.left>a{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	color: #000;
+	font-family: 'AvantGardeGothicITCW02B 737103','Arial Black',Gadget,sans-serif;
+}
+.flex>.left>a>span{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background: #000;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	margin-right: 10px;
+}
+.contenCount .right>p{
+	margin-bottom: 20px;
+}
+.contenCount .right>a{
+	display: block;
+	margin-bottom: 20px;
+}

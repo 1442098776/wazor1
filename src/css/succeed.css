@@ -1,0 +1,21 @@
+.succeed{
+	min-height: 400px;
+}
+.succeed h2{
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+.succeed .p1{
+	font-size: 18px;
+}
+.succeed .p1 b{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: "HelveticaNeueW02-77BdCn 694066",HelveticaNeueBlackCondensed,HelveticaNeue-Black-Condensed,"Helvetica Neue Black Condensed",HelveticaNeueBlack,HelveticaNeue-Black,"Helvetica Neue Black",HelveticaNeue,"Helvetica Neue",TeXGyreHerosCnBold,"Arial Narrow",Arial,sans-serif;
+}
+.succeed a{
+	font-size: 12px;
+	text-decoration: underline;
+}

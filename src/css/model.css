@@ -1,0 +1,180 @@
+.model>.section{
+	background: #000;
+	padding: 20px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+.model>.section h1{
+	font-family: 'AvantGardeGothicITCW02B 737103','Arial Black',Gadget,sans-serif;
+	font-weight: 100;
+	font-size: 51px;
+	line-height: 58px;
+	margin-right: 15px;
+	border-bottom: 1px solid #393A3B;
+	text-transform: uppercase;
+}
+.model>.section p{
+	font-size: 25px;
+}
+.model .p{
+	font-size: 16px;
+	margin-bottom: 30px;
+	line-height: 30px;
+}
+.section1>.count{
+	margin-bottom: 30px;
+}
+.h2{
+	font-family: 'AvantGardeGothicITCW02B 737103','Arial Black',Gadget,sans-serif;
+	font-size: 24px;
+	font-weight: 100;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.ul{
+	width: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.gray{
+	color: #999;
+	background: #000;
+	padding: 10px;
+}
+.white{
+	background: #000;
+	padding: 0 0 10px 10px;
+	text-transform:uppercase;
+}
+.black{
+	background: #000;
+	color: #fff;
+	font-size: 12px;
+	padding:0 10px;
+}
+.white a{
+	color: #fff;
+	text-transform:uppercase;
+	font-weight: 700;
+	font-size: 17px;
+}
+.white a:hover{
+	text-decoration: underline;
+}
+.count li.videoPupop{
+	cursor: pointer;
+	position: relative;
+}
+.count li.videoPupop .img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/* 视频弹窗样式 */
+.pupopVideo,.pupop1{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 10;
+	display: none;
+}
+.pupopVideo>div{
+	height: 550px;
+	padding:30px;
+	background: #fff;
+	position: relative;
+	margin-top: 10%;
+}
+.pupopVideo .videoClose{
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	top: 0;
+	right: 0;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+}
+.pupopVideo>div>div>.video,.pupopVideo>div>div{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 15;
+}
+.pupopVideo video{
+	width: 100%;
+	height: 100%;
+	background: #000;
+}
+.pupopVideo .img{
+	display: none;
+	cursor: pointer;	
+}
+.pupopVideo .img,.pupopVideo .share>ul{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 16;
+}
+.pupopVideo .share{
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+	z-index: 20;
+}
+.pupopVideo .share li{
+	float: left;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	background: #fff;
+	cursor: pointer;
+	margin: 15px;
+}
+.pupopVideo .share li:hover{
+	box-shadow: 0 0 10px 2px #fff;
+}
+.pupopVideo .share li:hover a{
+	color: #ccc;
+}
+.pupopVideo .share li a{
+	color: #999;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.pupopVideo .shareFont{
+	position: absolute;
+	z-index:20;
+	bottom: 0px;
+	right: -25px;
+	cursor: pointer;
+}
+.share>.shareClose{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	color: #fff;
+}

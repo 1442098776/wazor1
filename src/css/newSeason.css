@@ -1,0 +1,236 @@
+.Tweet{
+	height: 25px;
+	line-height: 25px;
+	margin-bottom: 25px;
+}
+.Tweet>span:first-of-type{
+	font-weight: bold;
+	font-size: 18px;
+	display: inline-block;
+	margin-right: 30%;
+}
+.Tweet>div{
+	width: 20px;
+	height: 25px;
+	line-height: 25px;
+	background: #000;
+	color: #fff;
+	position: relative;
+	margin-left:10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.Tweet>div:hover>div{
+	display: block;
+}
+.Tweet>div>div{
+	width: 180px;
+	position: absolute;
+	top: 25px;
+	z-index: 10;
+	display: none;
+	background: #fff;
+}
+.Tweet ul{
+	border: 1px solid #ccc;
+}
+.Tweet>div>div>ul li:hover:not(:last-of-type){
+	background: #07579f;
+}
+.Tweet>div>div>ul li:hover:not(:last-of-type) a{
+	color: #fff;
+}
+.Tweet>div>div>ul li{
+	display: block;
+	padding-left: 10px;
+	height: 30px;
+	line-height: 30px;
+}
+.Tweet>div>div>ul a{
+	color: #07579f;
+	font-weight: bold;
+	display: block;
+	height: 100%;
+}
+.Tweet>div>div>ul i{
+	color: #fff;
+	width:20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 14px;
+}
+.Tweet>div>div>ul>li:first-of-type i,.Tweet>div>div>ul>li:nth-of-type(2) i,
+.Tweet>div>div>ul>li:nth-of-type(7) i{
+	background-color: #d54040;
+}
+.Tweet>div>div>ul>li:nth-of-type(3) i{
+	background: #a32121;
+}
+.Tweet>div>div>ul>li:nth-of-type(4) i{
+	background: #b2b0b0;
+}
+.Tweet>div>div>ul>li:nth-of-type(5) i{
+	background: #09a6c2;
+}
+.Tweet>div>div>ul>li:nth-of-type(6) i{
+	background: #40a3d5;
+}
+.Tweet>div>div>ul>li:last-of-type{
+	border-top: 1px solid #ccc;
+}
+.Tweet>div>div>ul>li:last-of-type{
+	cursor:default;
+	padding-right: 10px;
+}
+.Tweet>div>div>ul>li:last-of-type a{
+	color: #666;
+	font-weight: normal;
+	display: inline;
+	float: right;
+}
+.Tweet>div>div>ul>li:last-of-type i{
+	width: 12px;
+	height: 12px;
+	line-height: 12px;
+	background: #d54040;
+	font-size: 12px;
+}
+/* 以上分享区域样式 */
+
+.newSeason .aBtn{
+	display:inline-block;
+	width: 230px;
+	border: 2px solid #ac8c5f;
+	color: #8d7249;
+	font-size: 16px;
+	text-transform: uppercase;
+	background: #fff;
+	padding: 0 10px;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+	text-align: left;
+	cursor: pointer;
+	position: relative;
+}
+.newSeason .aBtn>i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	background: #8d7249;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	right: 5%;
+	transform: translateY(-50%);
+
+}
+.newSeason .aBtn:hover{
+	background: #8d7249;
+	color: #fff;
+}
+.newSeason .aBtn:hover>I{
+	background: #fff;
+	color:#8d7249;
+}
+
+
+.newSeason{
+	position: relative;
+	margin: -60px 0 40px 20px;
+	border: 20px solid #fff;
+	background: #fff;
+}
+.newSeason h1{
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	margin-top: 0;
+}
+.newSeason .flex,.newSeason .flex1{
+	display: flex;
+	margin: 20px 0;
+}
+.newSeason .flex>div{
+	flex: 1;
+}
+.newSeason .flex1>div{
+	flex: 1;
+}
+.newSeason h3{
+	font-size: 18px;
+	font-weight: 100;
+	font-family: 'AvantGardeGothicITCW02B 737103','Arial Black',Gadget,sans-serif;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.newSeason .imgCount{
+	margin-bottom: 20px;
+}
+.newSeason .imgCount>a{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin: 0 20px 20px 0px;
+	position: relative;
+}
+.newSeason .imgCount>a:hover ul{
+	display: block;
+}
+.newSeason .imgCount ul{
+	background:rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	font-family: 'AvantGardeGothicITCW02B 737103','Arial Black',Gadget,sans-serif;
+	font-weight: bold;
+	padding: 15px;
+	display: none;
+}
+.newSeason .imgCount li:first-of-type{
+	color: #b7b7b7;
+	padding-bottom: 40%;
+}
+.newSeason .imgCount li:nth-of-type(2){
+	padding-bottom: 25%;
+	color: #ccc;
+}
+.newSeason .imgCount li:last-of-type{
+	color: #fff;
+}
+.newSeason>.right{
+	padding-right: 0;
+}
+.newSeason>.right>ul{
+	margin-bottom: 20px;
+}
+.newSeason>.right>ul>li:nth-of-type(2){
+	font-size: 12px;
+	color: #999;
+	background: #000;
+	padding: 10px 10px 5px;
+}
+.newSeason>.right>ul>li:last-of-type{
+	padding: 0px 10px 10px;
+	font-weight: bold;
+	background: #000;
+}
+.newSeason>.right>ul>li:last-of-type>a{
+	color: #fff;
+}
+.newSeason>.right>ul>li:last-of-type>a:hover{
+	text-decoration: underline;
+}

@@ -1,0 +1,150 @@
+.contactUs .left{
+	width: 60%;
+}
+.contactUs h1{
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin:0 0 20px;
+}
+.contactUs .p{
+	font-size: 18px !important;
+	color: #000;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+}
+.contactUs p{
+	font-size: 12px;
+}
+.contactUs .p1{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+/* 表单 */
+.contactUs form{
+	margin: 40px 0;
+	padding: 20px 0;
+	border-top: 1px solid #ccc;
+}
+.contactUs form hr{
+	margin-top: -20px;
+}
+.contactUs form>.form-group{
+	display: flex;
+}
+.contactUs form>.radio{
+	height: auto;
+	margin-bottom: 20px;
+}
+.contactUs form>.radio>label{
+	flex: 2;
+	display: inline-block;
+	height: 100%;
+	line-height: 100%;
+	font-weight: normal;
+	padding-left: 0;
+}
+.contactUs form>.form-group:not(.radio)>label{
+	flex: 2;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+.contactUs form>.form-group>.input{
+	flex: 3;
+	position: relative;
+}
+.contactUs form>.form-group>.input>i{
+	position: absolute;
+	right: -35px;
+	top: 0;
+	display:none;
+}
+.contactUs form>.form-group>.input>input:not(.radio){
+	height: 40px;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border: 1px solid #ccc;
+}
+.contactUs form>.form-group>.input>p{
+	display: none;
+	color:#b00b0b;
+	margin-bottom: 0;
+	padding:5px 10px;
+	font-size: 12px;
+}
+.contactUs form .select>select{
+	width: 60%;
+	height: 40px;
+	font-weight: bold;
+}
+.contactUs form .select option{
+	font-weight: bold;
+}
+.contactUs form .select p{
+	margin-top: 20px;
+	padding: 0 !important;
+	color: #000 !important;
+}
+.contactUs form .textarea>textarea{
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	-ms-border-radius: 0;
+	height:100px;
+}
+.contactUs form .textarea>i{
+	top:40% !important;
+	transform: translateY(-50%) !important;
+}
+.contactUs form>.form-group>.input>label{
+	font-weight: normal;
+}
+.contactUs form>.checkbox{
+	height: auto;
+	margin-bottom: 20px;
+}
+.contactUs form>.checkbox>label{
+	padding: 0;
+}
+.contactUs form button{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0;
+	border: 0;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;
+	background-color: #d0a144;
+}
+.contactUs form button>a{
+	color: #fff;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.contactUs form button>a>i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: #fff;
+	color:#d0a144;
+	font-size: 14px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	margin-left: 10px;
+}

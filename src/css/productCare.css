@@ -1,0 +1,25 @@
+.productCare{
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.productCare h3{
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	font-weight: 400;
+	font-size: 26px !important;
+	color: #000;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 30px;
+}
+.productCare h4{
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	font-weight: 400;
+	font-size: 18px !important;
+	color: #000;
+	text-transform: uppercase;
+	margin:20px 0 30px;
+}
+.productCare ul{
+	padding-left: 20px;
+}

@@ -1,0 +1,309 @@
+.orderCount{
+	padding-top: 20px;
+	padding-bottom: 60px;
+	font-family:ArialMT;
+	color:rgba(0,0,0,1);
+}
+.orderCount>.p1{
+	height:50px;
+	line-height: 50px;
+	background:rgba(36,38,38,1);
+	font-size:22px;
+	font-family:Arial-BoldMT !important;
+	color:rgba(255,255,255,1) !important;
+	padding-left: 20px;
+	margin-bottom: 40px;
+}
+.orderCount>.p2{
+	border-bottom:1px solid #CCCCCC ;
+	font-size:20px;
+	color:rgba(205,161,24,1) !important;
+	padding-bottom: 6px;
+}
+.orderCount>.p2 span{
+	border-bottom: 4px solid #CDA118;
+	padding-bottom: 6px;
+}
+
+/* 左边的样式 */
+.orderLeft{
+	padding-left: 0;
+	padding-top: 31px;
+}
+.orderLeft>p:first-of-type{
+	font-size:20px;
+	font-family:Arial-BoldMT !important;
+	font-weight: bold;
+	padding-bottom: 21px;
+}
+.orderLeft>p:nth-of-type(2){
+	
+	padding-bottom: 30px;
+}
+.orderLeft>p:nth-of-type(2)>.span{
+	display: inline-block;
+	width: 20%;
+}
+.orderLeft>p:nth-of-type(2)>span:nth-of-type(2){
+	font-size:18px;
+	font-family:Arial-BoldMT !important;
+	font-weight: bold;
+}
+.orderLeft>p:nth-of-type(3){
+	font-size:20px;
+	font-family:Arial-BoldMT !important;
+	font-weight: bold;
+	padding-bottom: 18px;
+}
+.orderLeft>p:nth-of-type(4){
+	padding-bottom: 20px;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 41px;
+}
+
+.orderLeft>p:nth-of-type(5){
+	border-top: 1px solid #CCCCCC;
+	padding-bottom: 20px;
+}
+.orderLeft table th{
+	vertical-align: top !important;
+	font-weight: bold;
+	height: 46px;
+}
+.orderLeft .table>thead>tr>th{
+	font-size:20px;
+	font-family:Arial-BoldMT;
+	font-weight: bold;
+	padding: 0;
+}
+.orderLeft .table>tbody>tr>td{
+	padding: 10px 0;
+}
+.orderLeft .table>tbody>tr:last-of-type>td{
+	padding: 0;
+}
+.orderLeft .table>tbody>tr>td:nth-of-type(even){
+	font-weight: bold;
+}
+.orderLeft table th:first-of-type{
+
+	width: 445px;
+}
+.orderLeft table th:last-of-type{
+
+	width: 355px;
+}
+.table>tbody>tr>td,.table>thead>tr>th{
+	border: 0;
+}
+.orderLeft table tbody tr td:nth-of-type(odd){
+	width: 20%;
+}
+.orderLeft table tbody tr td:nth-of-type(2){
+	padding-right: 10px;
+}
+.orderLeft table tbody tr td:nth-of-type(even){
+	width: 30%;
+}
+
+.orderLeft table tbody td span:first-of-type{
+	padding-bottom: 10px;
+	display: block;
+}
+
+.placeOrder{
+	padding-left: 0;
+}
+.placeOrder>div>a{
+	display: inline-block;
+	padding-top: 15px;
+	color: #000000;
+}
+.placeOrder button{
+	width:160px;
+	height:40px;
+	border: 0;
+	
+	background:rgba(36,38,38,1);
+}
+.placeOrder button a{
+	color:rgba(255,255,255,1);
+}
+.placeOrder button:hover{
+	background-color: #cda118;
+}
+
+/* 右边的样式 */
+.orderRight{
+	padding-right: 0;
+}
+.orderRight>p:first-of-type{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #cccccc;
+}
+.orderRight>p:first-of-type>span:first-child{
+	font-size:16px;
+	font-weight: bold;
+}
+.orderRight>p:first-of-type> a{
+	color: #666666;
+	text-decoration: underline;
+}
+.orderRight>.media{
+	transform-style: preserve-3d;
+	padding-bottom: 20px;
+	font-size:12px;
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 20px;
+}
+.orderRight>.media>.media-body{
+	padding-left: 10px;
+}
+.orderRight>.media>.media-left{
+	padding-right: 0;
+	overflow: hidden;
+}
+.orderRight>.media:hover img{
+	perspective: 20000px;
+	transition: all ease 2s;
+	-webkit-transition: all ease 2s;
+	-o-transition: all ease 2s;
+	-moz-transition: all ease 2s;
+	-ms-transition: all ease 2s;
+	transform: scale3d(1.1,1.1, 1.1);
+	-webkit-transform: scale3d(1.1,1.1, 1.1);
+	-o-transform: scale3d(1.1,1.1, 1.1);
+	-moz-transform: scale3d(1.1,1.1, 1.1);
+	-ms-transform: scale3d(1.1,1.1, 1.1);
+}
+.orderRight>p>span:nth-child(2){
+	font-weight: bold;
+}
+.orderRight .media-body>p:first-of-type{
+	font-weight: bold;
+	padding-top: 10px;
+}
+.orderRight .media-body a{
+	color: #000000;
+}
+.orderRight .media-body>p:nth-of-type(3){
+	color:rgba(102,102,102,1);
+	padding-bottom: 10px;
+}
+.orderRight .media-body>p:last-of-type{
+	font-weight: bold;
+	font-size: 16px;
+}
+.orderRight>p:nth-of-type(2){
+	padding-bottom: 20px;
+	border-bottom: 2px solid #000000;
+}
+.orderRight>p:nth-of-type(4){
+	padding-bottom: 10px;
+	border-bottom: 2px solid #000000;
+	margin-bottom: 20px;
+}
+.orderRight>p:nth-of-type(2)>span:first-child{
+	margin-right: 68px;
+}
+.orderRight>p:nth-of-type(3)>span:first-child{
+	margin-right: 30px;
+}
+.orderRight>p:nth-of-type(4)>span:first-child{
+	margin-right: 58px;
+}
+.orderRight>p:nth-of-type(5)>span:first-child{
+	margin-right: 90px;
+}
+
+
+@media screen and (min-width: 992px) {
+	.orderCount{
+		width: 920px;
+		margin: 0 auto;
+	}
+	.orderLeft{
+		/* width: 900px; */
+		padding-right: 100px;
+	}
+	/* .orderRight{
+		width: 300px;
+	} */
+	.orderLeft>p:nth-of-type(2)>span:nth-of-type(2){
+		margin-left: 20px;
+		margin-right: 79px;
+	}
+	.orderLeft>p:nth-of-type(2)>span:nth-of-type(4){
+		margin-left: 20px;
+		margin-right: 81px;
+	}
+	.orderLeft>p:nth-of-type(2)>span:last-of-type{
+		margin-left: 20px;
+	}
+	.orderLeft>.table-responsive{
+		width:100%;
+	}
+
+	/* 右边的样式 */
+	
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+	.orderCount{
+		width: 100%;
+	}
+	.orderLeft>p:nth-of-type(2)>span{
+		display: inline-block;
+	}
+	.orderLeft>p:nth-of-type(2)>span:nth-of-type(2){
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.orderLeft>p:nth-of-type(2)>span:nth-of-type(4){
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.orderLeft>p:nth-of-type(2)>span:last-of-type{
+		margin-left: 20px;
+	}
+	.orderLeft>p:nth-of-type(5)>span:first-of-type{
+		margin-right: 274px;
+	}
+	.orderLeft>div:first-of-type>div:nth-of-type(1){
+		width: 171px;
+	}
+	.orderLeft>div:first-of-type>div:nth-of-type(2){
+		width: 275px;
+	}
+	.orderLeft>div:first-of-type>div:nth-of-type(3){
+		width: 168px;
+	}
+	.orderLeft>div:first-of-type>div:nth-of-type(4){
+		width:186px;
+	}
+
+	/* 右边的样式 */
+	.orderRight{
+		padding-right: 15px;
+	}
+	
+}
+@media screen and (max-width: 767px) {
+	.orderLeft>p:nth-of-type(2) span:nth-of-type(odd){
+		display: inline-block;
+		width: 50%;
+		padding: 5px 20px;
+	}
+	.orderLeft>p:nth-of-type(2) span:nth-of-type(even){
+		display: inline-block;
+		width: 50%;
+	}
+	.orderLeft>p:nth-of-type(5){
+		border: 0;
+	}
+	/* 右边的样式 */
+	.orderRight{
+		padding-right: 15px;
+	}
+
+}

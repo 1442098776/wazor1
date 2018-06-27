@@ -1,0 +1,44 @@
+.returns{
+	margin-bottom: 200px;
+}
+.returns h3{
+	font-family: "AvantGardeGothicITCW02B 737103",'Arial Black',Gadget,sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 26px;
+	color: #000;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+.returns p{
+	font-size: 12px;
+}
+.returns .count{
+	width: 100%;
+	height: auto;
+}
+.returns .pPanel{
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.returns .pPanel>span{
+	text-align: center;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	background: #000;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	margin-right: 10px;
+}
+.returns .panelBody{
+	display: none;
+}
